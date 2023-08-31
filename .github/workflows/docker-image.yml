@@ -31,6 +31,6 @@ jobs:
 
     - name: Push image registry
       run: |
-        docker push andersoneholguin/docker-graphql:0.0.1 .
+        docker push andersoneholguin/docker-graphql:0.0.1
 
     
