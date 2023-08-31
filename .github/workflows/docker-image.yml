@@ -28,9 +28,11 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t andersoneholguin/docker-graphql:0.0.1 .
+        docker build -t andersoneholguin/docker-graphql .
 
     - name: Push image registry
       run: |
         docker push andersoneholguin/docker-graphql:0.0.1
+        docker push andersoneholguin/docker-graphql
 
     
